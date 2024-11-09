@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Css/Navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
+
 <body>
-     <nav class="nav container">
-        <a href="" class="nav__logo">Logo</a>
-            <div class="nav__menu" id="nav-menu"></div>
-            
-     </nav>
+    <header class="nav__header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Logo</a>
+            <!--  por ahora unos generales idk -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Movies</span>
+                        </a>
+                        <!--cambiamos esto dependiendo de que tanto trabajemos-->
+                        <!--ya sabes lo del catalogo-->
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Studio</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Proyects</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <!--Teoricamente aquí irira lo de el footer o social media-->
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-2-line"></i>
+            </div>
+
+        </nav>
+
+        <script src="../Js/navbar.js"></script>
+    </header>
 </body>
+
 </html>
